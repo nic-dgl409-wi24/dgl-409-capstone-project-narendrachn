@@ -32,6 +32,16 @@ main {
 section {
     margin-bottom: 20px;
 }
+.input{
+    padding: 10px 10px;
+    margin: 10px 10px;
+}
+.btn-1{
+    color: #fff;
+    background-color: black;
+    border-radius: 3 px;
+    margin: 10px 10px;
+}
 
 footer {
     background-color: #333;
