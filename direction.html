@@ -26,7 +26,7 @@
     <main>
         <section>
             <div>Directions</div>
-            <form id="route-form">
+            <!-- <form id="route-form">
                 <label for="start">Start Location:</label>
                 <input class="input" type="text" id="start" name="start"></br>
                 <label for="destination">Destination:</label>
@@ -37,7 +37,51 @@
             <div id="route-map">
                 <img src="images/map.jpeg" alt="Map"/>
 
-            </div>
+            </div> -->
+
+            <h1>Route Calculator</h1>
+    <form id="routeForm">
+        <label for="origin">Origin:</label>
+        <input type="text" id="origin" name="origin" required><br>
+        <label for="destination">Destination:</label>
+        <input type="text" id="destination" name="destination" required><br>
+        <button type="submit">Calculate Route</button>
+    </form>
+    <div id="routeDetails"></div>
+
+    <script>
+        document.getElementById('routeForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+
+            // Get the origin and destination values from the form
+            const origin = document.getElementById('origin').value;
+            const destination = document.getElementById('destination').value;
+
+            // Construct the API endpoint URL with query parameters
+            const baseURL = 'https://api.tomtom.com/routing/1/calculateRoute';
+            const apiKey = "gEtI8GBbyroGxAGuR4FeBYcVmyAn0mvA";
+            const routePlanningLocations = `${origin}:${destination}`;
+            const contentType = 'json';
+            const url = `${baseURL}/${routePlanningLocations}/${contentType}?key=${apiKey}`;
+
+            // Make an HTTP GET request to the API endpoint
+            fetch(url)
+                .then(response => response.json())
+                .then(data => {
+                    // Process the route data and display it on the webpage
+                    const routeDetails = document.getElementById('routeDetails');
+                    routeDetails.innerHTML = `<p>Route Distance: ${data.distance}</p>`;
+                    routeDetails.innerHTML += `<p>Estimated Time: ${data.estimatedTime}</p>`;
+                    // Add more route details as needed
+                })
+                .catch(error => {
+                    console.error('Error fetching route data:', error);
+                    // Display an error message on the webpage
+                    const routeDetails = document.getElementById('routeDetails');
+                    routeDetails.innerHTML = '<p>Error fetching route data. Please try again later.</p>';
+                });
+        });
+        </script>
         </section>
         
         
