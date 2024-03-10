@@ -3,7 +3,7 @@
 // Function to initialize the map for real-time traffic
 
 var apiKey = "gEtI8GBbyroGxAGuR4FeBYcVmyAn0mvA";
-var centerCoords = [4.89218, 52.37187];
+var centerCoords = [49.687778, 52.37187];
 var initialZoom = 13;
 var map = tt.map({
     key: apiKey,
