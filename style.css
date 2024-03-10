@@ -27,6 +27,15 @@ nav ul li {
 nav ul li a {
     color: #fff
 }
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.discussion {
+  box-sizing: border-box;
+  border: 5px solid red;
+  border-radius: 20px;
+}
 
 main {
     padding: 20px;
