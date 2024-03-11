@@ -440,9 +440,28 @@ h2 {
     background-color: #0056b3;
 }
 
+/* About us page */
+section {
+  margin-bottom: 30px;
+}
+#about h1 {
+  text-align: center;
+}
+#about, #live-traffic, #discussion-chat, #route-optimization {
+  margin: 50px;
+}
+.about {
+  font-size: 30px;
+}
+h2 {
+  color: #333;
+}
+p {
+  line-height: 1.6;
+}
 /* footer */
 
-ffooter {
+footer {
   background-color: #333;
   color: #fff;
   text-align: center;
@@ -455,6 +474,8 @@ ffooter {
 
 .social-links a {
   margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
 }
 
 .social-links img {
