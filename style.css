@@ -385,6 +385,9 @@ footer {
     max-width: 98vw;
     width: 100%;
   }
+  #live-traffic-head {
+    font-size: larger;
+  }
 
   /* Profile page styles */
 
