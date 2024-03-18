@@ -539,6 +539,32 @@ button:hover {
   text-decoration: none;
   cursor: pointer;
 }
+/* directions page */
+
+.directions, #traffic-map{
+  /* width: 100%; */
+  height: 100%;
+  padding: 15px;
+  text-align: center;
+}
+#traffic-map canvas{
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  text-align: center;
+
+}
+
+
+
+/* spare parts page */
+
+.spare-parts{
+  width: 100%;
+  height: 100%;
+  padding: 15px;
+  text-align: center;
+}
 
 /* footer */
 
@@ -564,7 +590,8 @@ footer {
   height: 30px;
 }
 
-p {
+footer p {
   margin: 0;
-  font-size: 14px;
+  font-size: 16px;
+  padding: 15px;
 }
