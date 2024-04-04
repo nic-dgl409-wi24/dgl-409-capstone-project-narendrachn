@@ -43,7 +43,15 @@ nav ul li a {
 main {
     padding: 20px;
 }
-
+.hero-image {
+  background-image: url("images/driver-image.webp");
+  background-color: #cccccc;
+  height: 40vw;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 section {
     margin-bottom: 20px;
 }
