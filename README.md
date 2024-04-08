@@ -11,3 +11,5 @@ dgl-409-capstone-project-narendrachn created by GitHub Classroom
  Click on the "Live Traffic Updates" section to view real-time traffic information. The map will display traffic flow, congestion areas, accidents, and road closures. Use this information to plan your routes accordingly.
 
 Navigate to the "Discussion Forum" section to participate in conversations with other drivers. You can ask questions, share tips, and connect with fellow professionals in the industry.
+
+If you're looking to optimize your delivery routes, head to the "Route Optimization" feature. Enter multiple locations, and the system will calculate the most efficient route for you, taking into account factors like traffic conditions and distance.
