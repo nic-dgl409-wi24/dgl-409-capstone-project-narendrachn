@@ -70,7 +70,7 @@ section {
 }
 .btn-1{
     color: #fff;
-    background-color: black;
+    background-color: #5c37da;
     border-radius: 3px;
     margin: 10px 10px;
 }
@@ -79,12 +79,7 @@ section {
     height: 100%;
 }
 
-footer {
-    background-color: #5c37da;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-}
+
 
 #help-modal {
     padding: 0;
@@ -589,7 +584,7 @@ button:hover {
 /* footer */
 
 footer {
-  background-color: #333;
+  background-color: #5c37da;
   color: #fff;
   text-align: center;
   padding: 20px 0;
