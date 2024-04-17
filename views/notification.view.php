@@ -84,7 +84,7 @@
                       </div>
                       <div class="row align-items-center pt-2">
                         <div class="col-sm-2">
-                          <img class="traffic-icon" src="img/traffic-flow.png" alt="" />
+                          <img class="traffic-icon" src="../img/traffic-flow.png" alt="" />
                         </div>
                         <div class="col pt-2">
                           <label for="flow-toggle" class="traffic-text">Traffic flow</label>

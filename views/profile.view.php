@@ -5,7 +5,7 @@
         <section>
             <h2>Profile</h2>
             <div class="container">
-                <img src="../images/Profile-picture.png" alt="Profile Picture" class="profile-picture">
+                <img src="../../images/Profile-picture.png" alt="Profile Picture" class="profile-picture">
                 <div class="profile-name">John Doe</div>
                 
                 <div class="about-me">
