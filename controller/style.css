@@ -767,6 +767,10 @@ footer {
   display: none;
 }
 
+.profile-picture{
+  background-image: url(../images/Profile-picture.png);
+}
+
 @media  screen and (max-width: 768px) {
   
   .header h1 {
