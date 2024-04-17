@@ -43,20 +43,7 @@
   
 </head>
 <body>
-  <header class="header">
-    <h1>Driver Connect</h1>
-    <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="direction.html">Directions</a></li>
-          <li><a href="notification.html">Live Traffic</a></li>
-          <li><a href="Locate-spare.html">Spare Parts Store</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="profile.html">Profile</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
-</header>
+<?php require('partials/header.php'); ?>
   <main>
       <section class="live-traffic">
           <div class="live-traffic-head">
@@ -184,21 +171,7 @@
                 </div>
               </div>
             </div>
-            <!-- <div class="modal" id="help-modal" tabindex="-1" role="dialog" aria-labelledby="help-modal" aria-hidden="true">
-              <div class="modal-dialog modal-dialog-centered" role="document">
-                <div class="modal-content">
-                  <div class="modal-header">
-                    <img class="img-fluid" src="img/logo.png" />
-                    <button id="modal-close-button" type="button" class="btn close" data-dismiss="modal" aria-label="Close">
-                      <span aria-hidden="true">
-                        <img src="img/close.png" alt=&times;>
-                      </span>
-                    </button>
-                  </div>
-              
-                </div>
-              </div>
-            </div> -->
+            
             <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.2.1/bootstrap-slider.min.js"></script>
@@ -211,19 +184,5 @@
       
       
   </main>
-  <footer>
-    <div class="social-links">
-        <a href="https://www.facebook.com/" target="_blank"><img src="facebook-icon.png"
-                alt="Facebook"></a>
-        <a href="https://www.instagram.com/" target="_blank"><img src="instagram-icon.png"
-                alt="Instagram"></a>
-        <a href="https://www.twitter.com/yourDriverConnectPage" target="_blank"><img src="twitter-icon.png"
-                alt="Twitter"></a>
-    </div>
-    <p>&copy; 2024 Driver Connect. All rights reserved.</p>
-
-  </footer>
-  <script src="script.js"></script>
-    
-</body>
-</html>
+ 
+  <?php require('partials/footer.php'); ?>

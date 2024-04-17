@@ -1,49 +1,30 @@
 <?php require ('partials/head.php')?>
 <?php require ('partials/header.php')?>
-    
-    
-    <main class="content">
-        <section class="hero-image">
-            <div class="hero-content">
-                <h1>Driver connect</h1>
-                <p>Empowering Local Delivery Network</p>
-            </div>
-           
+    <main>
+        <section id="contact">
+            <h1>Contact Us</h1>
+            <p>Have a question or feedback? We'd love to hear from you!</p>
+            <form id="contact-form" action="myModel" method="POST">
+                <div class="form-group">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                </div>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
 
-        </section>
-        <section>
-            <H1>Discussion for Drivers</H1>
-            <div style="height: 500px;" class="discussion">
-                <div class="discussion" id="rt-d9e66e51b658db9e45570c2f6b9caf53"></div>
-                <script src="https://rumbletalk.com/client/?6eU4WK4q"></script>
-            </div>
-        </section>
-        <section id="realtime-traffic">
-            <h2>Real-time Traffic Notifications</h2>
-            <div id="traffic-map">
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d20646.97203951002!2d-125.00207210340237!3d49.69439253392638!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sca!4v1710740635087!5m2!1sen!2sca"
-                    width="80%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
-            </div>
-            <div>
-                <a href="notification.html"><button class="btn-1" type="submit">Get Live Updates!</button></a>
-            </div>
-            
-        </section>
-        <main>
-        <h1>Courtenay Spare Parts Stores</h1>
-        <p>Below map shows the spare parts store around Courtenay</p>
-        <div class="spare-parts">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d20288.830927588257!2d-124.99679069120575!3d49.702628021307554!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1scar%20spare%20parts%20courtenay!5e0!3m2!1sen!2sca!4v1710738095855!5m2!1sen!2sca"
-                width="80%" height="600" style="border:0;" allowfullscreen="" loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
     </main>
+
     <footer>
-        <section class="footer-1">
+    <section class="footer-1">
                 <div class="about-1">
                         <h2><a href="about.php">About</a></h2>
                         <p><a href="about.php">About Driver connect</a></p>
@@ -109,5 +90,3 @@
 </body>
 
 </html>
-    <!-- <?php require ('partials/footer.php')?> -->
-    

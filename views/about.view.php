@@ -1,36 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Driver connect</title>
-
-    <link rel="stylesheet" href="style.css">
-
-    <script type="text/javascript">
-        (function(c,l,a,r,i,t,y){
-            c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-            t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-            y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-        })(window, document, "clarity", "script", "lnwxcqk5ie");
-    </script>
-</head>
-<body>
-    <header class="header">
-        <h1>Driver Connect</h1>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="direction.html">Directions</a></li>
-                <li><a href="notification.html">Live Traffic</a></li>
-                <li><a href="Locate-spare.html">Spare Parts Store</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="profile.html">Profile</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<?php require ('partials/head.php')?>
+<?php require ('partials/header.php')?>
+    
     <main>
         <section id="about">
             <h1 class="about">About Us</h1>
@@ -54,19 +24,7 @@
             <p>In addition, Driver Connect includes a nearby store locator feature, enabling drivers to easily find essential amenities such as gas stations, restaurants, and rest areas along their route. With just a few clicks, drivers can locate nearby services, ensuring a convenient and hassle-free experience on the road.</p>
         </section>
     </main>
-    <footer>
-        <div class="social-links">
-            <a href="https://www.facebook.com/" target="_blank"><img src="facebook-icon.png"
-                    alt="Facebook"></a>
-            <a href="https://www.instagram.com/" target="_blank"><img src="instagram-icon.png"
-                    alt="Instagram"></a>
-            <a href="https://www.twitter.com/yourDriverConnectPage" target="_blank"><img src="twitter-icon.png"
-                    alt="Twitter"></a>
-        </div>
-        <p>&copy; 2024 Driver Connect. All rights reserved.</p>
+
+
+<?php require ('partials/footer.php')?>
     
-    </footer>
-    <script src="script.js"></script>
-    
-</body>
-</html>

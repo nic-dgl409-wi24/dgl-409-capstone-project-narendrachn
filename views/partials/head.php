@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://unpkg.com/openlayers@latest/dist/ol.css" type="text/css">
 
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <script type="text/javascript">
         (function(c,l,a,r,i,t,y){
@@ -22,4 +23,3 @@
 </head>
 
 <body>
-    
